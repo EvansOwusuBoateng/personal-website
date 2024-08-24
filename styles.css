@@ -1,0 +1,91 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.section {
+    padding: 50px 20px;
+    text-align: center;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Alternating Background Colors */
+.section-blue {
+    background-color: #add8e6; /* Light Blue */
+}
+
+.section-white {
+    background-color: #ffffff; /* White */
+}
+
+/* Profile Container */
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.profile-container h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+/* Main Content: Two Columns Layout */
+.main-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Social Media Links */
+.social-media {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-media li {
+    display: inline;
+}
+
+.social-media a {
+    text-decoration: none;
+    color: #333; /* Default color: Black */
+    font-weight: bold;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+.social-media a:hover {
+    color: #add8e6; /* Hover color: Light Blue */
+}
+
+.social-media i {
+    margin-right: 8px;
+    color: #add8e6;
+}
